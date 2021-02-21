@@ -7,7 +7,7 @@ class TrainConfig:
   epoch = 20
 
 class MsraConfig:
-  pickle_path = os.path.join(PATH,'process_data/msra/MSRA.pkl')
+  pickle_path = os.path.join(PATH,'/Users/yachne/Documents/GitHub/tensorflow-bilstm-crf/process_data/msra/MSRA.pkl')
   charVec_path = os.path.join(PATH,'process_data/vec.txt')
   embedding_size = 4027 #字的总数目
   embedding_dim = 100 #字向量的维度
